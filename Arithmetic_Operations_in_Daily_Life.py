@@ -16,7 +16,7 @@ print(f"the total cost of bread, peanut butter, & jelly is ${bread_cost + peanut
 # For the example the expected outcome would be $10,700.
 
 savings_account_balance = 10000
-interest_rate = 0.07 / 365
+daily_interest_rate = 0.07 / 365
 year = 365
 
-print(f"at the end of the year I'll have ${int(savings_account_balance + (savings_account_balance * (interest_rate * year)))} in my savings account")
+print(f"at the end of the year I'll have ${int(savings_account_balance + (savings_account_balance * (daily_interest_rate * year)))} in my savings account")
